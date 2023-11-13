@@ -1,3 +1,4 @@
+function tocarSomAplausos(){
 document.querySelector('#som_tecla_aplausos').play();
-
-document.querySelector('.tecla_aplausos');
+}
+document.querySelector('.tecla_aplausos').onclick = tocarSomAplausos;
